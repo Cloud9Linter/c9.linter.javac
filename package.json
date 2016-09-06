@@ -1,0 +1,26 @@
+{
+  "name": "c9.linter.javac",
+  "description": "Lint C files on the fly in Cloud9 using javac.",
+  "author": "Tobias Büschel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cloud9Linter/c9.linter.javac"
+  },
+  "version": "0.0.1",
+  "permissions": "world",
+  "engines": {
+    "c9": ">=3.0.0"
+  },
+  "plugins": {
+    "javac": {}
+  },
+  "categories": [
+    "miscellaneous"
+  ],
+  "licenses": [],
+  "devDependencies": {
+    "eslint": "3.3.0",
+    "eslint-config-airbnb-base": "5.0.2",
+    "eslint-plugin-import": "1.13.0"
+  }
+}
